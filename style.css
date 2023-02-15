@@ -1,0 +1,137 @@
+.fixlogo {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 16px lightgray;
+    z-index: 1;
+    background-color: white;
+}
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    max-width: 955px;
+    margin: auto;
+}
+.logo {
+    height: 12px;
+    width: 119px;
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    margin-right: 8px;
+}
+.knopka {
+    margin-top: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+@media screen and (max-width: 576px){
+    .logo2 {
+        display: none;
+    } 
+}
+.textpole {
+    max-width: 955px;
+    position: relative;
+    top: 104px;
+    margin: auto;
+    
+}
+.inputtext {
+    border:0;
+    border-bottom:1px solid #eee;
+    width: 955px;
+    padding-top: 22px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #626262;
+    padding-left: 8px;
+  }
+.restoran {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+}
+.res {
+    max-width: 955px;
+    position: relative;
+    top: 153px;
+    margin: auto;
+    padding-left: 8px;
+}
+.container {
+    position: relative;
+    top: 200px;
+    max-width: 955px;
+    margin: auto;
+    padding-left: 8px;
+}
+.finishlogo {
+    max-width: 955px;
+    margin: auto;
+    background-color: #262626;
+    padding-top: 56px;
+    padding-bottom: 15px;
+}
+.fimg {
+    height: 19px;
+    width: 190px;
+    padding-left: 8px;
+    
+}
+.f {
+    position: relative;
+    top: 250px;
+    width: 100%;
+    background-color: #262626;
+}
+.cherta {
+    width: 955px;
+    color: #eee;
+}
+.line {
+    height:20px;
+    max-width:955px;
+    border-top:1px solid #FFFFFF;
+    padding-left: 8px;
+    margin-top: 40px;
+}
+.log {
+    padding-top: 40px;
+}
+.per {
+    padding-top: 20px;
+}
+.container1 {
+    max-width: 955px;
+    margin: auto;
+    padding-left: 8px;
+}
+p {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+.pp {
+    padding-top: 20px;
+}
+@media screen and (max-width: 576px) {
+    .ppp {
+        padding-top: 0;
+    }
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imga {
+    padding: 40px 20px 10px 20px;
+}
+.kn {
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+}
+.fixk {
+    padding: 0;
+}

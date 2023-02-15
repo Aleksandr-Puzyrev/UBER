@@ -1,0 +1,308 @@
+.fixlogo {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 16px lightgray;
+    z-index: 1;
+    background-color: white;
+}
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    max-width: 955px;
+    margin: auto;
+}
+.logo {
+    height: 12px;
+    width: 119px;
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    margin-right: 8px;
+}
+.knopka {
+    margin-top: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+@media screen and (max-width: 576px){
+    .logo2 {
+        display: none;
+    } 
+}
+.fon {
+    background: url("photo.png");
+    background-size: cover;
+    max-height: 364px;
+    max-width: 100%;
+}
+.cont {
+    max-width: 955px;
+    margin: auto;
+}
+.container {
+    max-width: 955px;
+    padding: 0;
+}
+.card {
+    margin: 80px 8px;
+}
+.card-title {
+    padding: 18px;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+.text_box {
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.oval {
+    background-color: #262626;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    padding: 6px;
+    border-radius: 20px;
+}
+.card-text {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+@media screen and (max-width: 576px){
+    .fon {
+        max-height: 255px;
+    }
+    .text_box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .oval {
+        margin-top: 10px;
+    }
+    .card-title {
+        font-size: 22px;
+    }
+    .fon {
+        background: url("photo2.png");  
+    }
+    .card {
+        margin-top: 130px;
+    }
+}
+.spisok_dishes {
+    max-width: 955px;
+    margin: auto;
+    padding-left: 8px; 
+}
+.name_dishes {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.url {
+    color: black;
+}
+.spisok {
+    display: flex;
+    justify-content: space-between;
+    max-width: 620px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+}
+.blok_dishes {
+    box-shadow: 3px 3px rgba(150, 150, 150, 0.5);
+}
+@media screen and (max-width: 576px){
+    .blok_dishes {
+        box-shadow: none;
+    }
+    .zakuski_cont {
+        display: flex;
+        justify-content: center;
+    }
+    .zakuski {
+        margin-top: 10px;
+    }
+    .spisok {
+        opacity: 0;
+    }
+    .line4 {
+        height:20px;
+        width: 55px;
+        border-top:3px solid #757575;
+        padding-left: 8px;
+        position: relative;
+        top: 110px;
+        right: 65px;
+    }    
+}
+.zakuski {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    padding-top: 56px;
+    padding-bottom: 30px;
+}
+.zakuski_cont {
+    max-width: 955px;
+    margin: auto;
+    padding-left: 8px;  
+}
+.container2 {
+    max-width: 955px;
+    margin: auto;
+    padding-left: 8px;
+}
+.img_snacks {
+    float: right;
+    margin: 0;
+    height: 170px;
+}
+p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.name_snacks {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #1D1D1D;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: 500;
+}
+.description {
+    color: #626262;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    padding-left: 8px;
+}
+.price {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    color: #1D1D1D;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+.flex_tex {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ramka {
+    padding-right: 0;
+    margin: 0;
+    
+    margin-bottom: 30px;
+}
+.snacks {
+    border: 1px solid #757575;
+    padding-left: 8px;
+}
+@media screen and (max-width: 991px) {
+    .ramka {
+        margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 576px) {
+    .name_snacks {
+        font-size: 14px;
+    }
+    .img_snacks {
+        height: 102px;
+    }
+    .flex_tex {
+        height: 102px;
+    }
+    .ramka {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.finishlogo {
+    max-width: 955px;
+    margin: auto;
+    background-color: #262626;
+    padding-top: 56px;
+    padding-bottom: 15px;
+}
+.fimg {
+    height: 19px;
+    width: 190px;
+    padding-left: 8px;
+    
+}
+.f {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    background-color: #262626;
+}
+@media screen and (max-width: 991px) {
+    .f {
+        top: 20px;
+    }
+}
+
+.cherta {
+    width: 955px;
+    color: #eee;
+}
+.line {
+    height:20px;
+    max-width:955px;
+    border-top:1px solid #FFFFFF;
+    padding-left: 8px;
+    margin-top: 40px;
+}
+.log {
+    padding-top: 40px;
+}
+.per {
+    padding-top: 20px;
+}
+.container1 {
+    max-width: 955px;
+    margin: auto;
+    padding-left: 8px;
+}
+p {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+.pp {
+    padding-top: 20px;
+}
+@media screen and (max-width: 576px) {
+    .ppp {
+        padding-top: 0;
+    }
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imga {
+    padding: 40px 20px 10px 20px;
+}
+.kn {
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+}
+.fixk {
+    padding: 0;
+}
+
